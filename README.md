@@ -185,7 +185,7 @@ Plots are displayed with `plt.show()`; the supplied code does not save figures t
 
 The curves show the dynamics of modeled trust propagation: a falling `S` curve indicates adoption, the `I` peak shows the maximum number of simultaneous active propagators, and rising `R` indicates users leaving the active propagation stage. The number reached by time `t` is `I(t) + R(t)` (including the initial propagators), or equivalently `N - S(t)`, since no users start in `R`.
 
-No simulation outputs were provided, so this README makes no claim about which network propagates trust faster or reaches more users. Useful comparison measures include peak active propagators, time to peak, and the fraction reached. If active propagators remain at `tmax`, the final reach is not yet known. Differences between single runs can also reflect random initial users and simulation events.
+Useful comparison measures include peak active propagators, time to peak, and the fraction reached. If active propagators remain at `tmax`, the final reach is not yet known. Differences between single runs can also reflect random initial users and simulation events.
 
 ## Limitations and Reproducibility
 
